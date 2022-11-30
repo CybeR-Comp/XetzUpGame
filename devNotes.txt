@@ -1,0 +1,20 @@
+WASD : Hareket Tuşları
+
+SPACE : Laser Ateşler
+
+2 : Main fonksiyonu sonlandırır. Lost Menüye geçer.
+
+##########################################################
+
+* Her levelde düşman gemilerin sayısı 4 artar.
+
+* Düşman gemiler pygame penceresinin üzerinde görünmeyen bir alanda (0,2) sn zaman aralığında
+spawn olur ve spawn oldukları dik eksen boyunca aşağıya iner.
+
+* Düşman gemiler (0,2) sn aralığında rastgele sürelerde ateş eder. Ateş ettikten sonra zaman 
+aralığı sıfırlanır.
+
+* Oyuncu gemisi yaklaşık 100 cana sahiptir ve her laser darbesinde %10 hasar yer. Ayrıca düşman gemileriyle
+çarpışma durumunda da %10 hasar yer.
+ 
+
