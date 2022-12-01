@@ -41,7 +41,7 @@ BGW = pygame.transform.scale(pygame.image.load(os.path.join("assets","background
 #sound effects
 laser_sound_effect = pygame.mixer.Sound(os.path.join("assets","laser_sound.wav"))
 lose_sound_effect = pygame.mixer.Sound(os.path.join("assets","lose_sound.wav"))
-theme_Sound = pygame.mixer.music.load(os.path.join("assets","theme_music.wav"))  #### MADE BY @sonfecitesla (Thanks for your help :)))
+theme_Sound = pygame.mixer.music.load(os.path.join("assets","theme_music.wav"))  #### MADE BY @sonfecitesla // Thanks for your help :) 
 
 class Laser:
     def __init__(self, x,y,img):
